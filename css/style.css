@@ -1,0 +1,77 @@
+body {
+	background-image: url(../images/cover3.jpg);
+	background-position: fixed;
+	background-size: cover;
+	text-align: center;
+	font-family: Verdana;
+}
+p {
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul {
+	display:inline-block;
+	list-style: none;
+	font-size: 12px;
+}
+.container >div{
+
+}
+.container {
+	margin: 100px 200px 20px 200px;
+	display: grid;
+	grid-gap: 10px;
+}
+.box1 {
+	border: 10px solid white;
+	padding: 80px 300px 80px 80px;
+	background: url(../images/profile5.jpg);
+	background-size: cover;
+	background-position: fixed;
+	font-family: Arial Black;
+	color: black;
+}
+h5 {
+	font-family: Verdana;
+}
+.box2 >div {
+	 box-shadow:  1px 1px 1px 1px #ccc;
+	padding: 20px;
+}
+.box2 {	padding:10px;
+	display: grid;
+	grid-gap: 25px;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+#rectangle2 {
+	grid-column: 2/4;
+	grid-row: 1/2;
+}
+.contact-list {
+	text-align: left;
+	padding:0;
+	margin:0;
+
+}
+
+#rectangle6 {
+	grid-column: 1/4;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.head {
+	grid-column: 1/4;
+	padding:0px;
+	margin:0px;
+	font-size: 30px;
+}
+.footer {
+	padding:10px;
+	background: black;
+	color: gray;
+}
