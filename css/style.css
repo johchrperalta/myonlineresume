@@ -17,9 +17,7 @@ ul {
 	list-style: none;
 	font-size: 12px;
 }
-.container >div{
 
-}
 .container {
 	margin: 100px 200px 20px 200px;
 	display: grid;
@@ -38,7 +36,7 @@ h5 {
 	font-family: Verdana;
 }
 .box2 >div {
-	 box-shadow:  1px 1px 1px 1px #ccc;
+	 box-shadow:  2px 2px 2px 2px #ccc;
 	padding: 20px;
 }
 .box2 {	padding:10px;
